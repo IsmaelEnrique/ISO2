@@ -1,0 +1,100 @@
+<mxfile host="Electron" modified="2025-08-22T13:02:03.403Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="EEhT9bHKSfVcogbrwweK" version="22.0.2" type="device">
+  <diagram name="Página-1" id="vxPMhFlo1Ir_1DVj6tXS">
+    <mxGraphModel dx="630" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AY-ZR7cTFE_jh41hWFNQ-1" value="Sistema de Gestion de Banco" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=250;height=30;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="520" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="AY-ZR7cTFE_jh41hWFNQ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="AY-ZR7cTFE_jh41hWFNQ-2" target="AY-ZR7cTFE_jh41hWFNQ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AY-ZR7cTFE_jh41hWFNQ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="AY-ZR7cTFE_jh41hWFNQ-2" target="AY-ZR7cTFE_jh41hWFNQ-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="45" y="390" />
+              <mxPoint x="100" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AY-ZR7cTFE_jh41hWFNQ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="AY-ZR7cTFE_jh41hWFNQ-2" target="AY-ZR7cTFE_jh41hWFNQ-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="145" y="170" />
+              <mxPoint x="145" y="215" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AY-ZR7cTFE_jh41hWFNQ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="AY-ZR7cTFE_jh41hWFNQ-2" target="AY-ZR7cTFE_jh41hWFNQ-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="220" />
+              <mxPoint x="100" y="220" />
+              <mxPoint x="100" y="310" />
+              <mxPoint x="320" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AY-ZR7cTFE_jh41hWFNQ-2" value="Funcionario" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="120" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AY-ZR7cTFE_jh41hWFNQ-3" value="CU001&lt;br&gt;Registrar Cliente" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="80" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AY-ZR7cTFE_jh41hWFNQ-4" value="CU002&lt;br&gt;Registrar Solicitud de Credito" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="360" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AY-ZR7cTFE_jh41hWFNQ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="AY-ZR7cTFE_jh41hWFNQ-5" target="AY-ZR7cTFE_jh41hWFNQ-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="655" y="245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AY-ZR7cTFE_jh41hWFNQ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="AY-ZR7cTFE_jh41hWFNQ-5" target="AY-ZR7cTFE_jh41hWFNQ-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="120" />
+              <mxPoint x="620" y="95" />
+              <mxPoint x="480" y="95" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AY-ZR7cTFE_jh41hWFNQ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="AY-ZR7cTFE_jh41hWFNQ-5" target="AY-ZR7cTFE_jh41hWFNQ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AY-ZR7cTFE_jh41hWFNQ-5" value="Jefe de Seccion" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="110" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AY-ZR7cTFE_jh41hWFNQ-6" value="CU003&lt;br&gt;Verificar Solicitudes Pendientes" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="70" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AY-ZR7cTFE_jh41hWFNQ-7" value="CU004&lt;br&gt;Dar Alta Solicitud" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="180" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AY-ZR7cTFE_jh41hWFNQ-8" value="CU005&lt;br&gt;Dar Baja Solicitud" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="270" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AY-ZR7cTFE_jh41hWFNQ-9" value="Cajero" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="420" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AY-ZR7cTFE_jh41hWFNQ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="AY-ZR7cTFE_jh41hWFNQ-10" target="AY-ZR7cTFE_jh41hWFNQ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AY-ZR7cTFE_jh41hWFNQ-10" value="CU006&lt;br&gt;Consultar Solicitudes" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="380" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AY-ZR7cTFE_jh41hWFNQ-19" value="CU007&lt;br&gt;Buscar Credito" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="440" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AY-ZR7cTFE_jh41hWFNQ-20" value="include" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AY-ZR7cTFE_jh41hWFNQ-10" target="AY-ZR7cTFE_jh41hWFNQ-19">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="260" y="310" as="sourcePoint" />
+            <mxPoint x="420" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

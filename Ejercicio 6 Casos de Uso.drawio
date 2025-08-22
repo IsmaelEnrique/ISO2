@@ -1,0 +1,149 @@
+<mxfile host="Electron" modified="2025-08-22T14:21:44.740Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="dSm4YkLfavn_HiOUY_Lo" version="22.0.2" type="device">
+  <diagram name="Página-1" id="e8p_WocuKqu_d4XixzNC">
+    <mxGraphModel dx="746" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pARZRtlszDCpW-f2g8z--1" value="Sistema de mensajeria telefonica" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=290;height=30;" vertex="1" parent="1">
+          <mxGeometry x="60" y="90" width="540" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="pARZRtlszDCpW-f2g8z--2" value="Usuario" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="160" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pARZRtlszDCpW-f2g8z--3" value="CU001&lt;br&gt;Registrar Usuario" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="150" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pARZRtlszDCpW-f2g8z--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="pARZRtlszDCpW-f2g8z--4" target="pARZRtlszDCpW-f2g8z--5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pARZRtlszDCpW-f2g8z--14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="pARZRtlszDCpW-f2g8z--4" target="pARZRtlszDCpW-f2g8z--10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="25" y="535" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pARZRtlszDCpW-f2g8z--20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="pARZRtlszDCpW-f2g8z--4" target="pARZRtlszDCpW-f2g8z--19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="30" y="250" />
+              <mxPoint x="291" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pARZRtlszDCpW-f2g8z--21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="pARZRtlszDCpW-f2g8z--4" target="pARZRtlszDCpW-f2g8z--18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="280" />
+              <mxPoint x="430" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pARZRtlszDCpW-f2g8z--4" value="Afiliado" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pARZRtlszDCpW-f2g8z--5" value="CU002&lt;br&gt;Enviar Mensaje" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="310" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pARZRtlszDCpW-f2g8z--6" value="CU003&lt;br&gt;Buscar Afiliado" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="290" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pARZRtlszDCpW-f2g8z--8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=0.62;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="pARZRtlszDCpW-f2g8z--2" target="pARZRtlszDCpW-f2g8z--3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pARZRtlszDCpW-f2g8z--9" value="include" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="pARZRtlszDCpW-f2g8z--5" target="pARZRtlszDCpW-f2g8z--6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="250" y="330" as="sourcePoint" />
+            <mxPoint x="420" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pARZRtlszDCpW-f2g8z--10" value="CU006&lt;br&gt;Actividad/Desactivar Desvio del telefono" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="500" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pARZRtlszDCpW-f2g8z--11" value="CU005&lt;br&gt;Solicitar Recarga de Saldo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="390" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pARZRtlszDCpW-f2g8z--12" value="CU004&lt;br&gt;Consultar Saldo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="410" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pARZRtlszDCpW-f2g8z--13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="pARZRtlszDCpW-f2g8z--4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="445" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="450" />
+              <mxPoint x="98" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pARZRtlszDCpW-f2g8z--15" value="extend" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pARZRtlszDCpW-f2g8z--11" target="pARZRtlszDCpW-f2g8z--12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="250" y="330" as="sourcePoint" />
+            <mxPoint x="410" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pARZRtlszDCpW-f2g8z--16" value="Tengo duda si el CU005 es un extend o estaria asociado directo al actor&lt;br&gt;yo lo tome como que un afiliado no podria directamente solicitar una recarga porque capaz&amp;nbsp;&lt;br&gt;que ya tiene el tope maximo de saldo y no podria solicitar mas&lt;br&gt;por eso previamente necesita conocer su saldo actual" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="630" width="510" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pARZRtlszDCpW-f2g8z--22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" target="pARZRtlszDCpW-f2g8z--19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="330" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="650" y="135" />
+              <mxPoint x="340" y="135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pARZRtlszDCpW-f2g8z--17" value="Administrador&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="350" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pARZRtlszDCpW-f2g8z--18" value="CU008&lt;br&gt;Cerrar Sesion" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="190" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pARZRtlszDCpW-f2g8z--19" value="CU007&lt;br&gt;Iniciar Sesion" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="155" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pARZRtlszDCpW-f2g8z--23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="pARZRtlszDCpW-f2g8z--18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="225" />
+              <mxPoint x="620" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pARZRtlszDCpW-f2g8z--27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="pARZRtlszDCpW-f2g8z--24" target="pARZRtlszDCpW-f2g8z--17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pARZRtlszDCpW-f2g8z--24" value="CU009&lt;br&gt;Solicitar Estadisticas del Sistema" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="340" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pARZRtlszDCpW-f2g8z--26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="pARZRtlszDCpW-f2g8z--25" target="pARZRtlszDCpW-f2g8z--17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pARZRtlszDCpW-f2g8z--25" value="CU010&lt;br&gt;Solicitar Informacion de Usuarios" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="450" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pARZRtlszDCpW-f2g8z--28" value="Tiempo" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="510" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pARZRtlszDCpW-f2g8z--29" value="CU011&lt;br&gt;Establecer Costo de Mensaje" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="520" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pARZRtlszDCpW-f2g8z--30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="pARZRtlszDCpW-f2g8z--29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pARZRtlszDCpW-f2g8z--31" value="Creo que me Faltaria algun caso de uso include a CU002&lt;br&gt;Que sea comunicar costos de envio, errores&amp;nbsp; o algo asi" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="30" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pARZRtlszDCpW-f2g8z--32" value="Tambien podria ser que en vez de usuario el actor&lt;br&gt;sea Persona y en vez de afiliado sea Usuario" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="365" y="30" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pARZRtlszDCpW-f2g8z--33" value="El caso de uso Tiempo lo puse pero no se si esta bien&lt;br&gt;me guie por el enunciado en la parte que dice&amp;nbsp;&lt;br&gt;que el costo de los mensajes cambia&lt;br&gt;con el tiempo, dia y hora en el que se envian" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="620" width="310" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
