@@ -1,0 +1,76 @@
+<mxfile host="Electron" modified="2025-08-22T14:52:14.896Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="MM1a7Vi1HPOZfTzYv1r_" version="22.0.2" type="device">
+  <diagram name="Página-1" id="ENYB_qAtND540aLnrJgR">
+    <mxGraphModel dx="624" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nfEQDdxAf3c0oiqDqHXu-1" value="Sistema de gestion de chombas" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=280;height=20;" vertex="1" parent="1">
+          <mxGeometry x="80" y="20" width="540" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEQDdxAf3c0oiqDqHXu-2" value="RSC" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEQDdxAf3c0oiqDqHXu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="nfEQDdxAf3c0oiqDqHXu-3" target="nfEQDdxAf3c0oiqDqHXu-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEQDdxAf3c0oiqDqHXu-3" value="CU001&lt;br&gt;Registrar Orden de Compra" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="280" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEQDdxAf3c0oiqDqHXu-5" value="CU004&lt;br&gt;Verificar Disponibilidad&amp;nbsp;&lt;br&gt;Item" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="160" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEQDdxAf3c0oiqDqHXu-6" value="include" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="nfEQDdxAf3c0oiqDqHXu-3" target="nfEQDdxAf3c0oiqDqHXu-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="280" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfEQDdxAf3c0oiqDqHXu-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="nfEQDdxAf3c0oiqDqHXu-7" target="nfEQDdxAf3c0oiqDqHXu-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEQDdxAf3c0oiqDqHXu-7" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="270" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEQDdxAf3c0oiqDqHXu-8" value="CU002&lt;br&gt;Ingresar Orden de Compra&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="250" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEQDdxAf3c0oiqDqHXu-9" value="include" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.376;entryY=0.977;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nfEQDdxAf3c0oiqDqHXu-8" target="nfEQDdxAf3c0oiqDqHXu-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="461" y="200" as="sourcePoint" />
+            <mxPoint x="395" y="188" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfEQDdxAf3c0oiqDqHXu-11" value="CU003&lt;br&gt;Consultar Seguimiento de la orden de compra" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="410" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEQDdxAf3c0oiqDqHXu-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="nfEQDdxAf3c0oiqDqHXu-7" target="nfEQDdxAf3c0oiqDqHXu-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfEQDdxAf3c0oiqDqHXu-13" value="Tiempo" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="70" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEQDdxAf3c0oiqDqHXu-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="nfEQDdxAf3c0oiqDqHXu-14" target="nfEQDdxAf3c0oiqDqHXu-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEQDdxAf3c0oiqDqHXu-14" value="CU005&lt;br&gt;Colocar orden en estado Pendiente" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="40" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEQDdxAf3c0oiqDqHXu-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="nfEQDdxAf3c0oiqDqHXu-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfEQDdxAf3c0oiqDqHXu-16" value="CU006&lt;br&gt;Verificar Pago" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="390" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEQDdxAf3c0oiqDqHXu-18" value="El CU005&lt;br&gt;no se si lo ejecuta el Tiempo o el RSC porque en una parte&lt;br&gt;dicen en el momento de que no esten disponibles pasan a pendiente" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="70" width="390" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
